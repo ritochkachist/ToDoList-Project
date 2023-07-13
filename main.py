@@ -2,7 +2,7 @@
 # Margarita Chistiakova
   
 toDoList = []
-def modifyItem(item):
+def modifyItem(item): 
     index = toDoList.index(item)
     print(f"Enter the new value for item '{item}':")
     newItem = input()
